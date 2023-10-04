@@ -1,0 +1,17 @@
+# Parcel
+- It Created a dev build.
+- It Creates a local Server.
+- It is automatically refresh our page also, which means HMR => Hot Module Replacement.
+- It is performing HMR, beacause it follows the File Watching Algorithm and written in C++.
+- It Provides us faster builds, becasue it provides a Parcel-Caching.
+- It will do Image Optimization as well.
+- It helps in Bundling and minification during production builds.
+- It helps in compressing a files.
+- It uses a Consistent Hashing.
+- It does code splitting for you.
+- It can do differntial bunding -> when you use <script typr="module" src="App.js"></script> it automatically genrates the nodemodule fallback for old browser as well.
+- It doing diagnosis behind the scenes.
+- It provides us a good error handling.
+- It helps to build solutions and host in HTTPS as well.
+- Parcel does reliable caching.
+- It does Tree-Shaking -> it means it will remove unused code for you.
