@@ -1,0 +1,36 @@
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  left: 0;
+}
+
+.searchbar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.userIcon {
+  position: absolute;
+  right: 0;
+}
+
+input{
+    height: 0px;
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    color: #111;
+    font-size: 15px;
+    box-shadow: 3px 1px 0px 2px, 0px -1px 0px 2px rgba(0, 0, 0, 0.62);  
+    transform: skew(-3deg, 1deg);
+    font-family: 'Knewave', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   
+  }
