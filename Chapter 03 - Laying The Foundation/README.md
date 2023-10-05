@@ -6,9 +6,8 @@
     - JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() 
     methods.
     - JSX is an extension of the JavaScript language based on ES6, and is translated into regular JavaScript at runtime.
-    - Example 1:
-       <code>
-            const myElement = <h1>I Love JSX!</h1>;
+    - Example 1:<code>
+            const myElement = `<h1>I Love JSX!</h1>`;
             const root = ReactDOM.createRoot(document.getElementById('root'));
             root.render(myElement);
         </code>
@@ -22,9 +21,8 @@
         - With JSX you can write expressions inside curly braces { }.
         - The expression can be a React variable, or property, or any other valid JavaScript expression.
         - JSX will execute the expression and return the result
-        - Example :
-            <code>
-                const myElement = <h1>React is {5 + 5} times better with JSX</h1>;
+        - Example :<code>
+                const myElement = `<h1>React is {5 + 5} times better with JSX`</h1>;
             </code>
     - Alternatively, you can use a "fragment" to wrap multiple lines. This will prevent unnecessarily adding extra nodes to the DOM.
     - A fragment looks like an empty HTML tag: `<></>`.
