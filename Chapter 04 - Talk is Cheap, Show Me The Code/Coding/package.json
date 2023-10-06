@@ -1,19 +1,16 @@
 {
   "name": "chapter04",
   "version": "1.0.0",
-  "description": "This is Namaste React by SAGAR PUJAR",
+  "description": "React Course Chpter 04",
+  "main": "App.js",
   "scripts": {
     "start": "parcel index.html",
-    "prodBuild": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "(https://github.com/SAGARPUJAR/React)"
   },
-  "keywords": [
-    "react-course"
-  ],
   "author": "SAGAR PUJAR",
   "license": "ISC",
   "devDependencies": {
@@ -23,6 +20,5 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "main": "App.js"
+  }
 }
