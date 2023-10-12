@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 0.5px solid black;
+}
+
+.logo img {
+  height: 125px;
+  width: 200px;
+}
+
+.navItems > ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.navItems > ul > li {
+  padding: 20px;
+  margin: 10px;
+}
+
+.restoCard {
+  background-color: #f0f0f0;
+  width: 245px;
+  height: 450px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.restoCard:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.Search {
+  padding: 5px;
+}
+
+.resImg {
+  width: 100%;
+}
+
+.restroContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter {
+  padding: 5px;
+}
+
+.filter-btn {
+  padding: 10px;
+  cursor: pointer;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
