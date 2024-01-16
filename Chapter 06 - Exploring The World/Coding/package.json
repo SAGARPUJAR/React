@@ -1,0 +1,24 @@
+{
+  "name": "chapter06",
+  "version": "1.0.0",
+  "description": "React Course Chpter 06",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/SAGARPUJAR/React)"
+  },
+  "author": "SAGAR PUJAR",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
